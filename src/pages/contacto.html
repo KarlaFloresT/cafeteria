@@ -1,0 +1,68 @@
+---
+title: contacto
+slogan: Mejores granos, mejor café
+---
+
+<div class="contenedor">
+    <main class="contenido-principal pagina-{{title}}">
+        <h2 class="encabezado">Recerva tu <span>mesa</span> </h2>
+
+        <div class="formulario-reservacion">
+            <form method="POST" action="assets/php/enviar.php" id="formulario" data-abide novalidate>
+                <div class="campo">
+                    <label for="nombre">
+                        Nombre:
+                        <input type="text" id="nombre" placeholder="Nombre" name="nombre" required>
+                        <span class="form-error">
+                            El nombre no puede ir vacío.
+                        </span>
+                    </label>
+                </div>
+                <div class="campo">
+                    <label for="email">
+                        Correo electrónico:
+                        <input type="text" id="email" placeholder="Correo electrónico" name="email" required pattern="email">
+                        <span class="form-error">
+                            El correo no puede ir vacío o invalido.
+                        </span>
+                    </label>
+                </div>
+                <div class="campo">
+                    <label for="para">
+                        Para:
+                        <select name="numero" id="para">
+                            <option value="1">1 Persona</option>
+                            <option value="2">2 Personas</option>
+                            <option value="3">3 Personas</option>
+                            <option value="4">4 Personas</option>
+                            <option value="5">5 Personas</option>
+                            <option value="6">6 Personas</option>
+                            <option value="7">7 Personas</option>
+                            <option value="8">8 Personas</option>
+                            <option value="9">9 Personas</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="campo">
+                    <label for="hora">
+                        Hora:
+                        <input type="text" id="hora" placeholder="18:00" name="hora">
+                    </label>
+                </div>
+                <div class="campo">
+                    <label for="fecha">
+                        Fecha:
+                        <input type="text" id="fecha" placeholder="DD/MM/AAAA" name="fecha" required pattern="day_month_year">
+                        <span class="form-error">
+                            La fecha no puede ir vacío o es incorrecta.
+                        </span>
+                    </label>
+                </div>
+                <div class="campo">
+                    <button type="submit" class="button btn_enviar">Enviar</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+</div>

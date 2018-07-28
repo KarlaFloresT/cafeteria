@@ -1,0 +1,81 @@
+{
+   "cafe":[
+      {
+         "name":"café latte",
+         "price":"25",
+         "desc":"Café Espresso con leche caliente o evaporada"
+      },
+      {
+         "name":"café mocha",
+         "price":"30",
+         "desc":"Espresso con crema y crema batida."
+      },
+      {
+         "name":"café americano",
+         "price":"20",
+         "desc":"Café Negro"
+      },
+      {
+         "name":"capuccino",
+         "price":"25",
+         "desc":"Espresso con una capa suave de espuma"
+      },
+      {
+         "name":"café mocha frio",
+         "price":"29",
+         "desc":"Espresso, dulce con mocha  y leche."
+      },
+      {
+         "name":"mocha frio quemado",
+         "price":"35",
+         "desc":"Espresso, hielo, con azucar quemada y mantequilla"
+      },
+      {
+         "name":"latte con caramelo",
+         "price":"39",
+         "desc":"Espresso, leche y caramelo"
+      }
+   ],
+   "comida":[
+      {
+         "name":"sandwich de pollo  a la parrilla",
+         "price":"60",
+         "desc":"pechuga de pollo con pepinos caremlizados, cebolla queso crema y salsa de chipotle"
+      },
+      {
+         "name":"Sandwich de pechuga de pavo",
+         "price":"60",
+         "desc":"pechuga de pavo asada y verduras"
+      },
+      {
+         "name":"sandwich de carne de albondiga",
+         "price":"60",
+         "desc":"sandwich de carne de albondiga bañada en salsa italiana de jitomate"
+      },
+      {
+         "name":"sandwich vegetariano",
+         "price":"50",
+         "desc":"Sandwich con verduras, elijelas a tu gusto"
+      },
+      {
+         "name":"sandwich de queso",
+         "price":"50",
+         "desc":"4 Quesos con pepinos y jitomate"
+      },
+      {
+         "name":"Bisquets",
+         "price":"10",
+         "desc":null
+      },
+      {
+         "name":"Pay de manzana",
+         "price":"15",
+         "desc":null
+      },
+      {
+         "name":"Galletas",
+         "price":"5",
+         "desc":null
+      }
+   ]
+}

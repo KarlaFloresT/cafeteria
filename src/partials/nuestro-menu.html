@@ -1,0 +1,36 @@
+<section class="nuestro-menu">
+    <div class="contenedor">
+        <h2 class="encabezado">Nuestro delicioso<span>menú</span></h2>
+        <div class="menu-cafeteria">            
+            <ul class="listado-menu">
+                <h3>Café</h3>
+                {{#each menucafe.cafe}}
+                <li class="producto">
+                    <div class="informacion">
+                        <p class="nombre">{{this.name}}</p>
+                        <p class="descripcion">{{this.desc}}</p>
+                    </div>
+                    <div class="precio">
+                        <p>$ {{this.price}}</p>
+                    </div>
+                </li>
+                {{/each}}
+            </ul>
+
+            <ul class="listado-menu">
+                <h3>Comida</h3>
+                {{#each menucafe.comida}}
+                <li class="producto">
+                    <div class="informacion">
+                        <p class="nombre">{{this.name}}</p>
+                        <p class="descripcion">{{this.desc}}</p>
+                    </div>
+                    <div class="precio">
+                        <p>$ {{this.price}}</p>
+                    </div>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</section>

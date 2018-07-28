@@ -1,0 +1,71 @@
+---
+title: inicio
+slogan: Disfruta una deliciosa taza de café
+---
+
+<div class="contenedor">
+    <main class="contenido-principal pagina-{{title}}">
+        <h2 class="encabezado">Conoce más <span>Sobre nosotros</span> </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa voluptatum, a suscipit maiores neque aut minima dolores excepturi! Odit ipsa, alias assumenda, sed voluptate asperiores laborum quos itaque non, sunt vel? Eaque id cum dolore eligendi pariatur iste nisi commodi earum adipisci, cupiditate unde aliquid ipsa illum distinctio repellat voluptates</p>
+        <div class="categoria-iconos">
+            <div class="icono cafe">
+                <h3>Café</h3>
+            </div>
+            <div class="icono postres">
+                <h3>Postres</h3>
+            </div>
+            <div class="icono te">
+                <h3>Té</h3>
+            </div>
+        </div>
+
+        {{> nuestra-galeria}}
+    </main>
+</div>
+
+{{> nuestro-menu}}
+
+<div class="contenedor contenido-principal">
+    <h2 class="encabezado">Lo que dice nuestros clientes<span>Testimoniales</span> </h2>
+    <div class="contenedor-slider">
+        <div class="orbit" role="region" aria-label="testimoniales" data-orbit data-options="animInFromLeft: fade-in; animImFromRight: fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+            <div class="orbit-controls">
+                <button class="orbit-previous">
+                    <span class="show-for-sr">Anterior</span>
+                    &#9664;&#xFE0e;
+                </button>
+                <button class="orbit-next">
+                    <span class="show-for-sr">Siguiente</span>
+                    &#9654;&#xFE0e;
+                </button>
+            </div>
+            <ul class="orbit-container">
+                <li class="is-active orbit-slide">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam rerum tempore quasi ipsam id aliquam repellat non nisi repudiandae consequuntur animi nihil vero sapiente unde quidem atque, earum, odio cupiditate</p>
+                        <h3>- Karla Flores</h3>
+                    </div>
+                </li>
+                <li class="orbit-slide">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam rerum tempore quasi ipsam id aliquam repellat non nisi repudiandae consequuntur animi nihil vero sapiente unde quidem atque, earum, odio cupiditate</p>
+                        <h3>Paty Mejia</h3>
+                    </div>
+                </li>
+                <li class="orbit-slide">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam rerum tempore quasi ipsam id aliquam repellat non nisi repudiandae consequuntur animi nihil vero sapiente unde quidem atque, earum, odio cupiditate</p>
+                        <h3>Karla Flores</h3>
+                    </div>
+                </li>
+                <li class="orbit-slide">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam rerum tempore quasi ipsam id aliquam repellat non nisi repudiandae consequuntur animi nihil vero sapiente unde quidem atque, earum, odio cupiditate</p>
+                        <h3>Paty Mejia</h3>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+    
